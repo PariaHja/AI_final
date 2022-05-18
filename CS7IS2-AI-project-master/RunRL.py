@@ -39,7 +39,5 @@ if __name__ == "__main__":
             if done:
                 scores.append(score)
                 episodes.append(episode)
-                pylab.plot(episodes, scores, 'b')
-                pylab.savefig("./q_learning10.png")
                 break
     print(QL.q_table)
